@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 60vw;
+    height: 60vh;
+    display: grid;
+   place-items: center;
+}
+
+.countBox{
+    width: 150px;
+    height: 150px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    font-size: 100px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    transition: 2s linear;
+    
+
+}
+.myshadow{
+    box-shadow: 10px 10px 10px black;
+   background-image: linear-gradient(aquamarine,green);
+   
+}
+
+.myshadow:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    
+  }
+
+ 
+  .arrow:hover{
+    box-shadow: 2px 2px inset, -2px -2px inset;
+
+  }
